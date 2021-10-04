@@ -553,7 +553,7 @@
     var cards = document.querySelectorAll('.card');
     if (cards.length > 0) {
       console.log('loaded list!');
-      toggleToast('App initialized!');
+      toggleToast('App is connected to Firebase, good to go!');
     }
     [].forEach.call(cards, function(card) {
       card.addEventListener('dragstart', handleDragStart, false);
